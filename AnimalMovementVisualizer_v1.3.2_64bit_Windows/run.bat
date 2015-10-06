@@ -1,0 +1,1 @@
+java -Djava.library.path="bin" -jar bin/AMV.jar
