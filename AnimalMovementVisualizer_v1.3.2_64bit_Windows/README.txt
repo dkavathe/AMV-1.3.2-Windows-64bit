@@ -4,9 +4,11 @@ Animal Movement Visualizer (AMV) ver. 1.3
     and researchers to track the migration patterns of animals, simply by uploading coordinates
     via an excel file.” - NASA World Wind Website
 
+goworldwind.org -- NASA World Wind now has support for Android and iOS integration and World Wind 2.0 is out!
 
 No-one likes README's but please read entirely thanks! =]
 
+COMING SOON: An installer so this process will not be needed. Also perhaps a web interface for this application.
 
 ____________________________________________________________________________________________________________________
 1.) Ensure your computer has Java, and the Java Runtime Environment installed and is properly functioning.
@@ -14,7 +16,11 @@ ________________________________________________________________________________
      a. To check: go to command prompt/terminal, type in:
   	java -version (or java -showversion)
 
-	should come up with : Java version 1.6.X
+	should come up with : Java version 1.6.X or greater
+
+          if you do not have Java (nothing comes up, command not found) Download Java and the JRE at
+
+            https://java.com/en/download/
 
 
 2.)  This software is architecture dependent. Please double you have downloaded the correct .zip
@@ -23,23 +29,31 @@ ________________________________________________________________________________
      a. To check: Start -> Right-Click "Computer" -> Click "Properties" -> Look under "System Type"
   
 
-3.) To run, simply execute "run.bat"
+3.) To run:  
+
+(CAUTION, please always scan any .bat (binary) or .sh (shell script) files for viruses, 
+   as anyone can type malicious system commands 
+  and if you run the script with sudo or administrator priviledges, un-reversable things can happen 
+  please use common sense for the integrity of your files/photos/personal, sensitive documents)
 
      a. Windows -- double click the "run.bat" file
 
-     b. Mac -- type "./run.sh" in the terminal (if permissions not set
+     b. Mac -- type "./run.sh" in the terminal (if permissions are 
+                   not set you should Google "chmod +x filename") but always be careful with setting scope permissions
 
      c. If you are seeing the file chooser and no program, try using the command line. (w/o quotes)..
 
-         i. Start -> Run -> type: "cmd.exe" -> type: "cd /path/to/this/directory/location/of/AMV.jar"
+         i. Start -> Run -> type: "cmd.exe" -> type: "cd /path/to/this/directory/location/bin/AMV.jar"
               
-               ** Windows 7 simply type "cmd" in search -> Enter.
+               ** Windows 7/8/10 -- Open Command Prompt -> simply type "cmd" in search -> Enter.
+
+               ** MacOS -- Finder -> Terminal -> type: "cd /path/to/this/directory/location/bin/AMV.jar"
 
          ii. type: "java -jar AMV.jar" to start AMV 1.3. 
 
          iii. if program crashes, the error message will display on the command line. 
 
-         iv. copy and paste this and send all bugs to devkavathekar23@gmail.com
+         iv. copy and paste this and send all bugs to dkavathe@jhu.edu
 
 
 ____________________________________________________________________________________________________________________
@@ -119,4 +133,4 @@ Funding was provided by NSF grant DBI-1062411.
 
 
 --
-last updated: May 10th, 2012
+last updated: October 20th, 2015
